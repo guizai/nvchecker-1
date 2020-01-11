@@ -63,6 +63,7 @@ Dependency
 
   * tornado + pycurl
   * aiohttp
+  * httpx
   * tornado
 
 - All commands used in your version source files
