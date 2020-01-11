@@ -23,6 +23,11 @@ env:
     - DEPS=tornado
     - DEPS="tornado<5 pycurl"
     - DEPS="tornado<5"
+    - DEPS="httpx"
+jobs:
+  exclude:
+  - python: "3.5"
+    env: DEPS="httpx"
 matrix:
   fast_finish: true
   allow_failures:
