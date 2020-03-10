@@ -21,8 +21,8 @@ class HTTPError(Exception):
     self.response = response
 
 NetworkErrors = (
-  httpx.exceptions.NetworkError,
-  httpx.exceptions.ConnectTimeout,
+  httpx.NetworkError,
+  httpx.ConnectTimeout,
 )
 
 class Response:
